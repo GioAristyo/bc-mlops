@@ -1,0 +1,2 @@
+Folder data dibuat otomatis oleh `python -m src.data`.
+CSV train/test tidak dimasukkan ke Git karena dapat direproduksi dari scikit-learn.

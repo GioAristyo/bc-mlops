@@ -1,0 +1,19 @@
+{
+  "dataset": "sklearn.datasets.load_breast_cancer",
+  "data_md5": "ee5481ad12c0896439e993aacc9e8d50",
+  "train_split_md5": "bece21cf2518b762ce4b03b5f321722c",
+  "test_split_md5": "9b8b4dd6f1b8ed42639808c42c3e869c",
+  "n_samples": 569,
+  "n_features": 30,
+  "n_train": 455,
+  "n_test": 114,
+  "test_size": 0.2,
+  "split_seed": 42,
+  "positive_class": "malignant",
+  "target_mapping": {
+    "0": "benign",
+    "1": "malignant"
+  },
+  "train_path": "data/train.csv",
+  "test_path": "data/test.csv"
+}

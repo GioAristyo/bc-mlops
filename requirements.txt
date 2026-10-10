@@ -1,0 +1,6 @@
+# Version manifest for MLflow run artifacts; installation is managed with Conda/Mamba.
+pandas==3.0.6
+scikit-learn==1.9.1
+matplotlib==3.11.2
+requests==2.34.2
+mlflow==3.17.0

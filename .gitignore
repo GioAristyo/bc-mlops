@@ -1,19 +1,29 @@
-# Python cache
+# Python
 __pycache__/
 *.py[cod]
-
-# Local environments
+*.egg-info/
 .venv/
 venv/
 .env
 
-# MLflow local tracking data
+# MLflow local metadata and large generated artifacts
 mlflow.db
+mlflow.db-shm
+mlflow.db-wal
 mlartifacts/
 mlruns/
 
-# Operating system
-.DS_Store
+# Generated local data; recreated deterministically with python -m src.data
+data/*.csv
 
-#VS code setting
-.vscode
+# Generated local outputs (keep folder placeholders in Git)
+outputs/*.json
+outputs/*.csv
+outputs/*.png
+outputs/*.txt
+reports/*.png
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/

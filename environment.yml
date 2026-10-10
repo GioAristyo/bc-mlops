@@ -1,8 +1,6 @@
 name: bc-mlops
-
 channels:
   - conda-forge
-
 dependencies:
   - python=3.11.17
   - pandas=3.0.6
@@ -10,3 +8,4 @@ dependencies:
   - matplotlib=3.11.2
   - requests=2.34.2
   - mlflow=3.17.0
+  - pytest
