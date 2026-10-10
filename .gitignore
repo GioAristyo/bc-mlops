@@ -1,0 +1,19 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Local environments
+.venv/
+venv/
+.env
+
+# MLflow local tracking data
+mlflow.db
+mlartifacts/
+mlruns/
+
+# Operating system
+.DS_Store
+
+#VS code setting
+.vscode
